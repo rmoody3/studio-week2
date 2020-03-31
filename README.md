@@ -1,4 +1,7 @@
 # Welcome to the Studio Week 2!
+
+Link: https://rmoody3.github.io/studio-week2/
+
 Last week we learned how to set up web pages and embed some pre-existing maps. This week we start building our own maps. And we'll start with a series of exercises for creating basemaps. Your maps will be constructed inside of a small, 4 page, website that we have already created with HTML and CSS files in this repo. The website works... but it has no maps! This will give you practice finding your way around HTML code as well as creating the Javascript necessary for the maps. Your web skillz are going to skyrocket after this studio! 
 
 ### A few notes on these tutorials
