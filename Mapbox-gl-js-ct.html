@@ -68,7 +68,6 @@
       'right': [-markerRadius, (markerHeight - markerRadius) * -1]
       };
     var popup = new mapboxgl.Popup({offset: popupOffsets, className: 'my-class'})
-    .setLngLat(e.lngLat)
     .setHTML("<b>The Presidio.</b><br /> Explore to find a drinking fountain!")
     .setMaxWidth("300px")
     .addTo(map);
@@ -81,6 +80,7 @@
      * and add it to the map.
      */
     var marker = new mapboxgl.Marker()
+    .setLngLat([-122.4700, 37.8011])
     .setPopup(popup)
     .addTo(map);
 
