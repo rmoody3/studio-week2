@@ -71,7 +71,7 @@
     .setLngLat(e.lngLat)
     .setHTML("<b>The Presidio.</b><br /> Explore to find a drinking fountain!")
     .setMaxWidth("300px")
-    .addTo(mapId);
+    .addTo(map);
     
 
     /* Create a variable called "marker," 
@@ -81,9 +81,8 @@
      * and add it to the map.
      */
     var marker = new mapboxgl.Marker()
-    .setLngLat([-122.4700, 37.8011])
-    .setpopup(popup)
-    .addTo(mapId);
+    .setPopup(popup)
+    .addTo(map);
 
     </script>
 
